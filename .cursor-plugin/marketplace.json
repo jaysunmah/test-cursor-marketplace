@@ -1,0 +1,1492 @@
+{
+  "name": "test-cursor-marketplace",
+  "owner": {
+    "name": "jaysunmah",
+    "email": "test@example.com"
+  },
+  "plugins": [
+    {
+      "name": "test-lsp-plugin",
+      "description": "Test LSP plugin for TypeScript/JavaScript language server",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/test-lsp-plugin",
+      "category": "development"
+    },
+    {
+      "name": "example-plugin",
+      "description": "A comprehensive example plugin demonstrating all Cursor extension options",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/example-plugin",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/example-plugin"
+    },
+    {
+      "name": "code-review",
+      "description": "Automated code review for pull requests using multiple specialized agents",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/code-review",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/code-review"
+    },
+    {
+      "name": "test-integration",
+      "description": "Test external integration plugin with MCP server configuration",
+      "category": "productivity",
+      "source": "./external_plugins/test-integration",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/external_plugins/test-integration"
+    },
+    {
+      "name": "api-design-studio",
+      "description": "API design and contract review workflows for REST and event-driven services",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/api-design-studio",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/api-design-studio"
+    },
+    {
+      "name": "incident-response-kit",
+      "description": "Incident triage, postmortem writing, and operational recovery guidance for engineering teams",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/incident-response-kit",
+      "category": "operations",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/incident-response-kit"
+    },
+    {
+      "name": "data-pipeline-workbench",
+      "description": "Workflow helpers for batch jobs, ETL design, and data quality checks",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/data-pipeline-workbench",
+      "category": "data",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/data-pipeline-workbench"
+    },
+    {
+      "name": "design-qa-assistant",
+      "description": "Design handoff, UI acceptance review, and visual QA helpers for product teams",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/design-qa-assistant",
+      "category": "design",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/design-qa-assistant"
+    },
+    {
+      "name": "docs-ops-studio",
+      "description": "Documentation maintenance helpers for changelogs, runbooks, and internal technical guides",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/docs-ops-studio",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/docs-ops-studio"
+    },
+    {
+      "name": "migration-planner",
+      "description": "Planning helpers for framework upgrades, service migrations, and phased rollouts",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/migration-planner",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/migration-planner"
+    },
+    {
+      "name": "observability-auditor",
+      "description": "Monitoring, alert review, and telemetry coverage guidance for production services",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/observability-auditor",
+      "category": "operations",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/observability-auditor"
+    },
+    {
+      "name": "release-train-manager",
+      "description": "Release readiness, rollout coordination, and launch checklist helpers for product engineering",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/release-train-manager",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/release-train-manager"
+    },
+    {
+      "name": "security-playbook",
+      "description": "Security review helpers for auth changes, secrets handling, and threat-oriented design discussions",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/security-playbook",
+      "category": "security",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/security-playbook"
+    },
+    {
+      "name": "test-automation-lab",
+      "description": "Test planning and failure-analysis helpers for unit, integration, and end-to-end coverage",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/test-automation-lab",
+      "category": "quality",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/test-automation-lab"
+    },
+    {
+      "name": "backend-refactor-coach",
+      "description": "Refactoring guidance for service boundaries, legacy modules, and incremental backend cleanups",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/backend-refactor-coach",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/backend-refactor-coach"
+    },
+    {
+      "name": "customer-research-synth",
+      "description": "Research synthesis helpers for support themes, interview notes, and product insight summaries",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/customer-research-synth",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/customer-research-synth"
+    },
+    {
+      "name": "database-performance-lab",
+      "description": "Practical guidance for query review, schema tuning, and operational database performance triage",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/database-performance-lab",
+      "category": "data",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/database-performance-lab"
+    },
+    {
+      "name": "developer-onboarding-pack",
+      "description": "Onboarding helpers for repository orientation, setup checklists, and first-week learning paths",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/developer-onboarding-pack",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/developer-onboarding-pack"
+    },
+    {
+      "name": "feature-flag-orchestrator",
+      "description": "Feature-flag planning helpers for staged rollouts, kill switches, and experiment-safe launches",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/feature-flag-orchestrator",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/feature-flag-orchestrator"
+    },
+    {
+      "name": "frontend-state-toolkit",
+      "description": "Helpers for UI state modeling, async flows, and reducing accidental frontend complexity",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/frontend-state-toolkit",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/frontend-state-toolkit"
+    },
+    {
+      "name": "platform-cost-optimizer",
+      "description": "Cost-awareness helpers for infrastructure spend, scaling choices, and efficiency tradeoff reviews",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/platform-cost-optimizer",
+      "category": "operations",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/platform-cost-optimizer"
+    },
+    {
+      "name": "reliability-game-day",
+      "description": "Game day planning helpers for resilience drills, failure scenarios, and recovery exercise reviews",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/reliability-game-day",
+      "category": "operations",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/reliability-game-day"
+    },
+    {
+      "name": "support-escalation-desk",
+      "description": "Support triage and escalation helpers for customer-impacting bugs, repro quality, and handoff clarity",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/support-escalation-desk",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/support-escalation-desk"
+    },
+    {
+      "name": "workflow-automation-starter",
+      "description": "Workflow automation helpers for recurring team tasks, checklists, and lightweight operational automations",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/workflow-automation-starter",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/workflow-automation-starter"
+    },
+    {
+      "name": "accessibility-review-advisor",
+      "description": "Accessibility Review workflows for accessible product design and interaction quality packaged as a reusable advisor-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/accessibility-review-advisor",
+      "category": "design",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/accessibility-review-advisor"
+    },
+    {
+      "name": "billing-operations-advisor",
+      "description": "Billing Operations workflows for billing workflows, payment support, and reconciliation readiness packaged as a reusable advisor-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/billing-operations-advisor",
+      "category": "operations",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/billing-operations-advisor"
+    },
+    {
+      "name": "mobile-release-advisor",
+      "description": "Mobile Release workflows for mobile launch readiness, store coordination, and rollback awareness packaged as a reusable advisor-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/mobile-release-advisor",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/mobile-release-advisor"
+    },
+    {
+      "name": "search-quality-advisor",
+      "description": "Search Quality workflows for search relevance, query behavior, and result quality review packaged as a reusable advisor-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/search-quality-advisor",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/search-quality-advisor"
+    },
+    {
+      "name": "ai-prompt-ops-advisor",
+      "description": "AI Prompt Ops workflows for prompt workflow maintenance, evaluation loops, and model-facing changes packaged as a reusable advisor-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/ai-prompt-ops-advisor",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/ai-prompt-ops-advisor"
+    },
+    {
+      "name": "integration-lifecycle-advisor",
+      "description": "Integration Lifecycle workflows for partner integration planning, changes, and supportability packaged as a reusable advisor-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/integration-lifecycle-advisor",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/integration-lifecycle-advisor"
+    },
+    {
+      "name": "compliance-readiness-advisor",
+      "description": "Compliance Readiness workflows for compliance preparation, control reviews, and evidence collection packaged as a reusable advisor-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/compliance-readiness-advisor",
+      "category": "security",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/compliance-readiness-advisor"
+    },
+    {
+      "name": "developer-experience-advisor",
+      "description": "Developer Experience workflows for internal tooling usability, setup friction, and contributor workflows packaged as a reusable advisor-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/developer-experience-advisor",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/developer-experience-advisor"
+    },
+    {
+      "name": "content-governance-advisor",
+      "description": "Content Governance workflows for editorial workflows, content changes, and publishing quality packaged as a reusable advisor-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/content-governance-advisor",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/content-governance-advisor"
+    },
+    {
+      "name": "team-capacity-advisor",
+      "description": "Team Capacity workflows for planning load, work intake, and delivery-risk communication packaged as a reusable advisor-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/team-capacity-advisor",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/team-capacity-advisor"
+    },
+    {
+      "name": "accessibility-review-auditor",
+      "description": "Accessibility Review workflows for accessible product design and interaction quality packaged as a reusable auditor-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/accessibility-review-auditor",
+      "category": "design",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/accessibility-review-auditor"
+    },
+    {
+      "name": "billing-operations-auditor",
+      "description": "Billing Operations workflows for billing workflows, payment support, and reconciliation readiness packaged as a reusable auditor-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/billing-operations-auditor",
+      "category": "operations",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/billing-operations-auditor"
+    },
+    {
+      "name": "mobile-release-auditor",
+      "description": "Mobile Release workflows for mobile launch readiness, store coordination, and rollback awareness packaged as a reusable auditor-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/mobile-release-auditor",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/mobile-release-auditor"
+    },
+    {
+      "name": "search-quality-auditor",
+      "description": "Search Quality workflows for search relevance, query behavior, and result quality review packaged as a reusable auditor-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/search-quality-auditor",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/search-quality-auditor"
+    },
+    {
+      "name": "ai-prompt-ops-auditor",
+      "description": "AI Prompt Ops workflows for prompt workflow maintenance, evaluation loops, and model-facing changes packaged as a reusable auditor-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/ai-prompt-ops-auditor",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/ai-prompt-ops-auditor"
+    },
+    {
+      "name": "integration-lifecycle-auditor",
+      "description": "Integration Lifecycle workflows for partner integration planning, changes, and supportability packaged as a reusable auditor-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/integration-lifecycle-auditor",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/integration-lifecycle-auditor"
+    },
+    {
+      "name": "compliance-readiness-auditor",
+      "description": "Compliance Readiness workflows for compliance preparation, control reviews, and evidence collection packaged as a reusable auditor-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/compliance-readiness-auditor",
+      "category": "security",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/compliance-readiness-auditor"
+    },
+    {
+      "name": "developer-experience-auditor",
+      "description": "Developer Experience workflows for internal tooling usability, setup friction, and contributor workflows packaged as a reusable auditor-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/developer-experience-auditor",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/developer-experience-auditor"
+    },
+    {
+      "name": "content-governance-auditor",
+      "description": "Content Governance workflows for editorial workflows, content changes, and publishing quality packaged as a reusable auditor-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/content-governance-auditor",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/content-governance-auditor"
+    },
+    {
+      "name": "team-capacity-auditor",
+      "description": "Team Capacity workflows for planning load, work intake, and delivery-risk communication packaged as a reusable auditor-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/team-capacity-auditor",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/team-capacity-auditor"
+    },
+    {
+      "name": "accessibility-review-coach",
+      "description": "Accessibility Review workflows for accessible product design and interaction quality packaged as a reusable coach-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/accessibility-review-coach",
+      "category": "design",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/accessibility-review-coach"
+    },
+    {
+      "name": "billing-operations-coach",
+      "description": "Billing Operations workflows for billing workflows, payment support, and reconciliation readiness packaged as a reusable coach-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/billing-operations-coach",
+      "category": "operations",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/billing-operations-coach"
+    },
+    {
+      "name": "mobile-release-coach",
+      "description": "Mobile Release workflows for mobile launch readiness, store coordination, and rollback awareness packaged as a reusable coach-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/mobile-release-coach",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/mobile-release-coach"
+    },
+    {
+      "name": "search-quality-coach",
+      "description": "Search Quality workflows for search relevance, query behavior, and result quality review packaged as a reusable coach-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/search-quality-coach",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/search-quality-coach"
+    },
+    {
+      "name": "ai-prompt-ops-coach",
+      "description": "AI Prompt Ops workflows for prompt workflow maintenance, evaluation loops, and model-facing changes packaged as a reusable coach-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/ai-prompt-ops-coach",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/ai-prompt-ops-coach"
+    },
+    {
+      "name": "integration-lifecycle-coach",
+      "description": "Integration Lifecycle workflows for partner integration planning, changes, and supportability packaged as a reusable coach-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/integration-lifecycle-coach",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/integration-lifecycle-coach"
+    },
+    {
+      "name": "compliance-readiness-coach",
+      "description": "Compliance Readiness workflows for compliance preparation, control reviews, and evidence collection packaged as a reusable coach-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/compliance-readiness-coach",
+      "category": "security",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/compliance-readiness-coach"
+    },
+    {
+      "name": "developer-experience-coach",
+      "description": "Developer Experience workflows for internal tooling usability, setup friction, and contributor workflows packaged as a reusable coach-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/developer-experience-coach",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/developer-experience-coach"
+    },
+    {
+      "name": "content-governance-coach",
+      "description": "Content Governance workflows for editorial workflows, content changes, and publishing quality packaged as a reusable coach-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/content-governance-coach",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/content-governance-coach"
+    },
+    {
+      "name": "team-capacity-coach",
+      "description": "Team Capacity workflows for planning load, work intake, and delivery-risk communication packaged as a reusable coach-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/team-capacity-coach",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/team-capacity-coach"
+    },
+    {
+      "name": "accessibility-review-desk",
+      "description": "Accessibility Review workflows for accessible product design and interaction quality packaged as a reusable desk-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/accessibility-review-desk",
+      "category": "design",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/accessibility-review-desk"
+    },
+    {
+      "name": "billing-operations-desk",
+      "description": "Billing Operations workflows for billing workflows, payment support, and reconciliation readiness packaged as a reusable desk-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/billing-operations-desk",
+      "category": "operations",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/billing-operations-desk"
+    },
+    {
+      "name": "mobile-release-desk",
+      "description": "Mobile Release workflows for mobile launch readiness, store coordination, and rollback awareness packaged as a reusable desk-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/mobile-release-desk",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/mobile-release-desk"
+    },
+    {
+      "name": "search-quality-desk",
+      "description": "Search Quality workflows for search relevance, query behavior, and result quality review packaged as a reusable desk-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/search-quality-desk",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/search-quality-desk"
+    },
+    {
+      "name": "ai-prompt-ops-desk",
+      "description": "AI Prompt Ops workflows for prompt workflow maintenance, evaluation loops, and model-facing changes packaged as a reusable desk-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/ai-prompt-ops-desk",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/ai-prompt-ops-desk"
+    },
+    {
+      "name": "integration-lifecycle-desk",
+      "description": "Integration Lifecycle workflows for partner integration planning, changes, and supportability packaged as a reusable desk-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/integration-lifecycle-desk",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/integration-lifecycle-desk"
+    },
+    {
+      "name": "compliance-readiness-desk",
+      "description": "Compliance Readiness workflows for compliance preparation, control reviews, and evidence collection packaged as a reusable desk-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/compliance-readiness-desk",
+      "category": "security",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/compliance-readiness-desk"
+    },
+    {
+      "name": "developer-experience-desk",
+      "description": "Developer Experience workflows for internal tooling usability, setup friction, and contributor workflows packaged as a reusable desk-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/developer-experience-desk",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/developer-experience-desk"
+    },
+    {
+      "name": "content-governance-desk",
+      "description": "Content Governance workflows for editorial workflows, content changes, and publishing quality packaged as a reusable desk-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/content-governance-desk",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/content-governance-desk"
+    },
+    {
+      "name": "team-capacity-desk",
+      "description": "Team Capacity workflows for planning load, work intake, and delivery-risk communication packaged as a reusable desk-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/team-capacity-desk",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/team-capacity-desk"
+    },
+    {
+      "name": "accessibility-review-engine",
+      "description": "Accessibility Review workflows for accessible product design and interaction quality packaged as a reusable engine-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/accessibility-review-engine",
+      "category": "design",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/accessibility-review-engine"
+    },
+    {
+      "name": "billing-operations-engine",
+      "description": "Billing Operations workflows for billing workflows, payment support, and reconciliation readiness packaged as a reusable engine-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/billing-operations-engine",
+      "category": "operations",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/billing-operations-engine"
+    },
+    {
+      "name": "mobile-release-engine",
+      "description": "Mobile Release workflows for mobile launch readiness, store coordination, and rollback awareness packaged as a reusable engine-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/mobile-release-engine",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/mobile-release-engine"
+    },
+    {
+      "name": "search-quality-engine",
+      "description": "Search Quality workflows for search relevance, query behavior, and result quality review packaged as a reusable engine-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/search-quality-engine",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/search-quality-engine"
+    },
+    {
+      "name": "ai-prompt-ops-engine",
+      "description": "AI Prompt Ops workflows for prompt workflow maintenance, evaluation loops, and model-facing changes packaged as a reusable engine-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/ai-prompt-ops-engine",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/ai-prompt-ops-engine"
+    },
+    {
+      "name": "integration-lifecycle-engine",
+      "description": "Integration Lifecycle workflows for partner integration planning, changes, and supportability packaged as a reusable engine-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/integration-lifecycle-engine",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/integration-lifecycle-engine"
+    },
+    {
+      "name": "compliance-readiness-engine",
+      "description": "Compliance Readiness workflows for compliance preparation, control reviews, and evidence collection packaged as a reusable engine-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/compliance-readiness-engine",
+      "category": "security",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/compliance-readiness-engine"
+    },
+    {
+      "name": "developer-experience-engine",
+      "description": "Developer Experience workflows for internal tooling usability, setup friction, and contributor workflows packaged as a reusable engine-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/developer-experience-engine",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/developer-experience-engine"
+    },
+    {
+      "name": "content-governance-engine",
+      "description": "Content Governance workflows for editorial workflows, content changes, and publishing quality packaged as a reusable engine-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/content-governance-engine",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/content-governance-engine"
+    },
+    {
+      "name": "team-capacity-engine",
+      "description": "Team Capacity workflows for planning load, work intake, and delivery-risk communication packaged as a reusable engine-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/team-capacity-engine",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/team-capacity-engine"
+    },
+    {
+      "name": "accessibility-review-hub",
+      "description": "Accessibility Review workflows for accessible product design and interaction quality packaged as a reusable hub-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/accessibility-review-hub",
+      "category": "design",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/accessibility-review-hub"
+    },
+    {
+      "name": "billing-operations-hub",
+      "description": "Billing Operations workflows for billing workflows, payment support, and reconciliation readiness packaged as a reusable hub-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/billing-operations-hub",
+      "category": "operations",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/billing-operations-hub"
+    },
+    {
+      "name": "mobile-release-hub",
+      "description": "Mobile Release workflows for mobile launch readiness, store coordination, and rollback awareness packaged as a reusable hub-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/mobile-release-hub",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/mobile-release-hub"
+    },
+    {
+      "name": "search-quality-hub",
+      "description": "Search Quality workflows for search relevance, query behavior, and result quality review packaged as a reusable hub-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/search-quality-hub",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/search-quality-hub"
+    },
+    {
+      "name": "ai-prompt-ops-hub",
+      "description": "AI Prompt Ops workflows for prompt workflow maintenance, evaluation loops, and model-facing changes packaged as a reusable hub-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/ai-prompt-ops-hub",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/ai-prompt-ops-hub"
+    },
+    {
+      "name": "integration-lifecycle-hub",
+      "description": "Integration Lifecycle workflows for partner integration planning, changes, and supportability packaged as a reusable hub-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/integration-lifecycle-hub",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/integration-lifecycle-hub"
+    },
+    {
+      "name": "compliance-readiness-hub",
+      "description": "Compliance Readiness workflows for compliance preparation, control reviews, and evidence collection packaged as a reusable hub-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/compliance-readiness-hub",
+      "category": "security",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/compliance-readiness-hub"
+    },
+    {
+      "name": "developer-experience-hub",
+      "description": "Developer Experience workflows for internal tooling usability, setup friction, and contributor workflows packaged as a reusable hub-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/developer-experience-hub",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/developer-experience-hub"
+    },
+    {
+      "name": "content-governance-hub",
+      "description": "Content Governance workflows for editorial workflows, content changes, and publishing quality packaged as a reusable hub-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/content-governance-hub",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/content-governance-hub"
+    },
+    {
+      "name": "team-capacity-hub",
+      "description": "Team Capacity workflows for planning load, work intake, and delivery-risk communication packaged as a reusable hub-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/team-capacity-hub",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/team-capacity-hub"
+    },
+    {
+      "name": "accessibility-review-kit",
+      "description": "Accessibility Review workflows for accessible product design and interaction quality packaged as a reusable kit-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/accessibility-review-kit",
+      "category": "design",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/accessibility-review-kit"
+    },
+    {
+      "name": "billing-operations-kit",
+      "description": "Billing Operations workflows for billing workflows, payment support, and reconciliation readiness packaged as a reusable kit-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/billing-operations-kit",
+      "category": "operations",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/billing-operations-kit"
+    },
+    {
+      "name": "mobile-release-kit",
+      "description": "Mobile Release workflows for mobile launch readiness, store coordination, and rollback awareness packaged as a reusable kit-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/mobile-release-kit",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/mobile-release-kit"
+    },
+    {
+      "name": "search-quality-kit",
+      "description": "Search Quality workflows for search relevance, query behavior, and result quality review packaged as a reusable kit-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/search-quality-kit",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/search-quality-kit"
+    },
+    {
+      "name": "ai-prompt-ops-kit",
+      "description": "AI Prompt Ops workflows for prompt workflow maintenance, evaluation loops, and model-facing changes packaged as a reusable kit-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/ai-prompt-ops-kit",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/ai-prompt-ops-kit"
+    },
+    {
+      "name": "integration-lifecycle-kit",
+      "description": "Integration Lifecycle workflows for partner integration planning, changes, and supportability packaged as a reusable kit-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/integration-lifecycle-kit",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/integration-lifecycle-kit"
+    },
+    {
+      "name": "compliance-readiness-kit",
+      "description": "Compliance Readiness workflows for compliance preparation, control reviews, and evidence collection packaged as a reusable kit-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/compliance-readiness-kit",
+      "category": "security",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/compliance-readiness-kit"
+    },
+    {
+      "name": "developer-experience-kit",
+      "description": "Developer Experience workflows for internal tooling usability, setup friction, and contributor workflows packaged as a reusable kit-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/developer-experience-kit",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/developer-experience-kit"
+    },
+    {
+      "name": "content-governance-kit",
+      "description": "Content Governance workflows for editorial workflows, content changes, and publishing quality packaged as a reusable kit-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/content-governance-kit",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/content-governance-kit"
+    },
+    {
+      "name": "team-capacity-kit",
+      "description": "Team Capacity workflows for planning load, work intake, and delivery-risk communication packaged as a reusable kit-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/team-capacity-kit",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/team-capacity-kit"
+    },
+    {
+      "name": "accessibility-review-lab",
+      "description": "Accessibility Review workflows for accessible product design and interaction quality packaged as a reusable lab-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/accessibility-review-lab",
+      "category": "design",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/accessibility-review-lab"
+    },
+    {
+      "name": "billing-operations-lab",
+      "description": "Billing Operations workflows for billing workflows, payment support, and reconciliation readiness packaged as a reusable lab-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/billing-operations-lab",
+      "category": "operations",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/billing-operations-lab"
+    },
+    {
+      "name": "mobile-release-lab",
+      "description": "Mobile Release workflows for mobile launch readiness, store coordination, and rollback awareness packaged as a reusable lab-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/mobile-release-lab",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/mobile-release-lab"
+    },
+    {
+      "name": "search-quality-lab",
+      "description": "Search Quality workflows for search relevance, query behavior, and result quality review packaged as a reusable lab-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/search-quality-lab",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/search-quality-lab"
+    },
+    {
+      "name": "ai-prompt-ops-lab",
+      "description": "AI Prompt Ops workflows for prompt workflow maintenance, evaluation loops, and model-facing changes packaged as a reusable lab-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/ai-prompt-ops-lab",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/ai-prompt-ops-lab"
+    },
+    {
+      "name": "integration-lifecycle-lab",
+      "description": "Integration Lifecycle workflows for partner integration planning, changes, and supportability packaged as a reusable lab-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/integration-lifecycle-lab",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/integration-lifecycle-lab"
+    },
+    {
+      "name": "compliance-readiness-lab",
+      "description": "Compliance Readiness workflows for compliance preparation, control reviews, and evidence collection packaged as a reusable lab-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/compliance-readiness-lab",
+      "category": "security",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/compliance-readiness-lab"
+    },
+    {
+      "name": "developer-experience-lab",
+      "description": "Developer Experience workflows for internal tooling usability, setup friction, and contributor workflows packaged as a reusable lab-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/developer-experience-lab",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/developer-experience-lab"
+    },
+    {
+      "name": "content-governance-lab",
+      "description": "Content Governance workflows for editorial workflows, content changes, and publishing quality packaged as a reusable lab-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/content-governance-lab",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/content-governance-lab"
+    },
+    {
+      "name": "team-capacity-lab",
+      "description": "Team Capacity workflows for planning load, work intake, and delivery-risk communication packaged as a reusable lab-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/team-capacity-lab",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/team-capacity-lab"
+    },
+    {
+      "name": "accessibility-review-planner",
+      "description": "Accessibility Review workflows for accessible product design and interaction quality packaged as a reusable planner-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/accessibility-review-planner",
+      "category": "design",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/accessibility-review-planner"
+    },
+    {
+      "name": "billing-operations-planner",
+      "description": "Billing Operations workflows for billing workflows, payment support, and reconciliation readiness packaged as a reusable planner-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/billing-operations-planner",
+      "category": "operations",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/billing-operations-planner"
+    },
+    {
+      "name": "mobile-release-planner",
+      "description": "Mobile Release workflows for mobile launch readiness, store coordination, and rollback awareness packaged as a reusable planner-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/mobile-release-planner",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/mobile-release-planner"
+    },
+    {
+      "name": "search-quality-planner",
+      "description": "Search Quality workflows for search relevance, query behavior, and result quality review packaged as a reusable planner-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/search-quality-planner",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/search-quality-planner"
+    },
+    {
+      "name": "ai-prompt-ops-planner",
+      "description": "AI Prompt Ops workflows for prompt workflow maintenance, evaluation loops, and model-facing changes packaged as a reusable planner-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/ai-prompt-ops-planner",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/ai-prompt-ops-planner"
+    },
+    {
+      "name": "integration-lifecycle-planner",
+      "description": "Integration Lifecycle workflows for partner integration planning, changes, and supportability packaged as a reusable planner-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/integration-lifecycle-planner",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/integration-lifecycle-planner"
+    },
+    {
+      "name": "compliance-readiness-planner",
+      "description": "Compliance Readiness workflows for compliance preparation, control reviews, and evidence collection packaged as a reusable planner-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/compliance-readiness-planner",
+      "category": "security",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/compliance-readiness-planner"
+    },
+    {
+      "name": "developer-experience-planner",
+      "description": "Developer Experience workflows for internal tooling usability, setup friction, and contributor workflows packaged as a reusable planner-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/developer-experience-planner",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/developer-experience-planner"
+    },
+    {
+      "name": "content-governance-planner",
+      "description": "Content Governance workflows for editorial workflows, content changes, and publishing quality packaged as a reusable planner-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/content-governance-planner",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/content-governance-planner"
+    },
+    {
+      "name": "team-capacity-planner",
+      "description": "Team Capacity workflows for planning load, work intake, and delivery-risk communication packaged as a reusable planner-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/team-capacity-planner",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/team-capacity-planner"
+    },
+    {
+      "name": "accessibility-review-studio",
+      "description": "Accessibility Review workflows for accessible product design and interaction quality packaged as a reusable studio-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/accessibility-review-studio",
+      "category": "design",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/accessibility-review-studio"
+    },
+    {
+      "name": "billing-operations-studio",
+      "description": "Billing Operations workflows for billing workflows, payment support, and reconciliation readiness packaged as a reusable studio-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/billing-operations-studio",
+      "category": "operations",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/billing-operations-studio"
+    },
+    {
+      "name": "mobile-release-studio",
+      "description": "Mobile Release workflows for mobile launch readiness, store coordination, and rollback awareness packaged as a reusable studio-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/mobile-release-studio",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/mobile-release-studio"
+    },
+    {
+      "name": "search-quality-studio",
+      "description": "Search Quality workflows for search relevance, query behavior, and result quality review packaged as a reusable studio-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/search-quality-studio",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/search-quality-studio"
+    },
+    {
+      "name": "ai-prompt-ops-studio",
+      "description": "AI Prompt Ops workflows for prompt workflow maintenance, evaluation loops, and model-facing changes packaged as a reusable studio-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/ai-prompt-ops-studio",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/ai-prompt-ops-studio"
+    },
+    {
+      "name": "integration-lifecycle-studio",
+      "description": "Integration Lifecycle workflows for partner integration planning, changes, and supportability packaged as a reusable studio-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/integration-lifecycle-studio",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/integration-lifecycle-studio"
+    },
+    {
+      "name": "compliance-readiness-studio",
+      "description": "Compliance Readiness workflows for compliance preparation, control reviews, and evidence collection packaged as a reusable studio-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/compliance-readiness-studio",
+      "category": "security",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/compliance-readiness-studio"
+    },
+    {
+      "name": "developer-experience-studio",
+      "description": "Developer Experience workflows for internal tooling usability, setup friction, and contributor workflows packaged as a reusable studio-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/developer-experience-studio",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/developer-experience-studio"
+    },
+    {
+      "name": "content-governance-studio",
+      "description": "Content Governance workflows for editorial workflows, content changes, and publishing quality packaged as a reusable studio-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/content-governance-studio",
+      "category": "documentation",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/content-governance-studio"
+    },
+    {
+      "name": "team-capacity-studio",
+      "description": "Team Capacity workflows for planning load, work intake, and delivery-risk communication packaged as a reusable studio-style plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/team-capacity-studio",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/team-capacity-studio"
+    }
+  ],
+  "metadata": {
+    "description": "Public test marketplace for development and testing of Cursor plugins"
+  }
+}
