@@ -1,0 +1,8 @@
+---
+description: Prefer lightweight verification and rollback awareness for risky shell workflows
+alwaysApply: true
+---
+
+- Highlight destructive shell commands before recommending them.
+- Prefer verification or dry-run steps when they exist.
+- Keep rollback and blast-radius considerations explicit.

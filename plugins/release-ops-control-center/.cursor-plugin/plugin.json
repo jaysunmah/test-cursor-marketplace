@@ -1,0 +1,20 @@
+{
+  "name": "release-ops-control-center",
+  "description": "Release operations fixture that demonstrates a plugin using both MCP servers and hooks together",
+  "version": "1.0.0",
+  "author": {
+    "name": "Test Author",
+    "email": "test@example.com"
+  },
+  "keywords": [
+    "operations",
+    "hooks",
+    "mcp",
+    "release"
+  ],
+  "hooks": "hooks/hooks.json",
+  "mcpServers": ".mcp.json",
+  "skills": "skills",
+  "commands": "commands",
+  "agents": "agents"
+}

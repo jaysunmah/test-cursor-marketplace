@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": "./scripts/session-brief.sh"
+      }
+    ],
+    "sessionEnd": [
+      {
+        "command": "./scripts/session-summary.sh"
+      }
+    ]
+  }
+}

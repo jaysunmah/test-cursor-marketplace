@@ -1484,6 +1484,42 @@
       "source": "./plugins/team-capacity-studio",
       "category": "productivity",
       "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/team-capacity-studio"
+    },
+    {
+      "name": "db-inspector-mcp",
+      "description": "Database inspection helpers that bundle a read-only MCP server example for schema and query workflows",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/db-inspector-mcp",
+      "category": "data",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/db-inspector-mcp"
+    },
+    {
+      "name": "workflow-guard-hooks",
+      "description": "Hook-based workflow safeguards for shell execution and post-edit reminders in Cursor sessions",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/workflow-guard-hooks",
+      "category": "productivity",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/workflow-guard-hooks"
+    },
+    {
+      "name": "release-ops-control-center",
+      "description": "Release operations fixture that demonstrates a plugin using both MCP servers and hooks together",
+      "version": "1.0.0",
+      "author": {
+        "name": "Test Author",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/release-ops-control-center",
+      "category": "operations",
+      "homepage": "https://github.com/jaysunmah/test-cursor-marketplace/tree/main/plugins/release-ops-control-center"
     }
   ],
   "metadata": {

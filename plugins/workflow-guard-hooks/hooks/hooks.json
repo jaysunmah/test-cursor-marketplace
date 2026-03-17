@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "beforeShellExecution": [
+      {
+        "command": "./scripts/check-risky-shell.sh",
+        "matcher": "rm|git push --force|curl .*\\|sh"
+      }
+    ],
+    "afterFileEdit": [
+      {
+        "command": "./scripts/post-edit-reminder.sh"
+      }
+    ]
+  }
+}

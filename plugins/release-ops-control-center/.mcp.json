@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "release-dashboard": {
+      "type": "http",
+      "url": "https://mcp.example.com/release-ops"
+    }
+  }
+}

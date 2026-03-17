@@ -1,0 +1,17 @@
+{
+  "name": "db-inspector-mcp",
+  "description": "Database inspection helpers that bundle a read-only MCP server example for schema and query workflows",
+  "version": "1.0.0",
+  "author": {
+    "name": "Test Author",
+    "email": "test@example.com"
+  },
+  "keywords": [
+    "data",
+    "mcp",
+    "database"
+  ],
+  "mcpServers": ".mcp.json",
+  "skills": "skills",
+  "commands": "commands"
+}
